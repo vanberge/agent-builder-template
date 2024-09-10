@@ -1,0 +1,86 @@
+<html>
+	<head></head>
+
+	<body>
+		<div class="container">
+      <!--Edit this filename / upload your own screencap-->
+		  <img src="./<Your screenshot >.png" >
+		</div>
+
+    <!--Edit this to be top-right, top-left, bottom-right, or bottom-left-->
+		  <div class="top-right">
+        
+			  <!-- Widget JavaScript bundle -->
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  configId="Get this from Agent builder, Search, Integration section"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<!-- Element that opens the widget on click. It does not have to be an input -->
+<input placeholder="Search here" id="searchWidgetTrigger" />
+		  </div>
+
+<style>
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  df-messenger {
+   --df-messenger-bot-message: #878fac;
+   --df-messenger-button-titlebar-color: #df9b56;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-input-box-color: grey;
+   --df-messenger-font-color: black;
+   --df-messenger-send-icon: #878fac;
+   --df-messenger-user-message: #479b3d;
+   --df-messenger-chat-border-radius: 1;
+   --df-messenger-chat-border: grey;
+  }
+</style>
+	</body>
+	<footer>
+	</footer>
+		
+
+</html>

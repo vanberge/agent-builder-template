@@ -1,0 +1,92 @@
+<html>
+	<head></head>
+	<body>
+		<div class="container">
+      <!--Edit this filename / upload your own screencap-->
+		  <img src="./<screenshot>.png" > 
+		</div>
+		<div class="bottom-right">		
+			<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger>
+  <!--Edit this info with your project ID and agent info-->
+  project-id="your-project-id"
+  agent-id="your-agent-id"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="Your Chatbot Title">
+  </df-messenger-chat-bubble>
+</df-messenger>
+
+<!--Begin Style Section-->
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
+		</div>
+<style>
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  df-messenger {
+   --df-messenger-bot-message: #878fac;
+   --df-messenger-button-titlebar-color: #df9b56;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-input-box-color: grey;
+   --df-messenger-font-color: black;
+   --df-messenger-send-icon: #878fac;
+   --df-messenger-user-message: #479b3d;
+   --df-messenger-chat-border-radius: 1;
+   --df-messenger-chat-border: grey;
+  }
+</style>
+	</body>
+	<footer>
+	</footer>
+		
+
+</html>
